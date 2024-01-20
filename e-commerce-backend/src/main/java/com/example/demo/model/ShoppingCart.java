@@ -1,6 +1,5 @@
 package com.example.demo.model;
 
-
 import jakarta.persistence.*;
 
 @Entity
@@ -11,17 +10,6 @@ public class ShoppingCart {
     @Column(name = "id", nullable = false)
     private Long id;
 
-    @Column(nullable = false)
-    private Long userId;
-
-    @Column(nullable = false)
-    private Long productId;
-
-    @Column(nullable = false)
-    private int quantity;
-
-
-
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
@@ -30,7 +18,10 @@ public class ShoppingCart {
     @JoinColumn(name = "product_id", nullable = false)
     private Product product;
 
+    @Column(nullable = false)
+    private int quantity;
 
+    // Getters and setters for user, product, quantity, and id
 
     public User getUser() {
         return user;
@@ -48,6 +39,13 @@ public class ShoppingCart {
         this.product = product;
     }
 
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
 
     public Long getId() {
         return id;
@@ -55,29 +53,5 @@ public class ShoppingCart {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public Long getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Long userId) {
-        this.userId = userId;
-    }
-
-    public Long getProductId() {
-        return productId;
-    }
-
-    public void setProductId(Long productId) {
-        this.productId = productId;
-    }
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
     }
 }
