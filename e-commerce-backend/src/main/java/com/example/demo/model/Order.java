@@ -1,7 +1,6 @@
 package com.example.demo.model;
 
 import jakarta.persistence.*;
-
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
@@ -13,8 +12,9 @@ public class Order {
     @Column(name = "id", nullable = false)
     private Long id;
 
-    @Column(nullable = false)
-    private Long userId;
+    @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
 
     @Column(nullable = false)
     private LocalDateTime date;
@@ -22,9 +22,8 @@ public class Order {
     @Column(nullable = false)
     private BigDecimal totalPrice;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id", nullable = false)
-    private User user;
+    private String status;
+
 
     public User getUser() {
         return user;
@@ -32,15 +31,6 @@ public class Order {
 
     public void setUser(User user) {
         this.user = user;
-    }
-
-
-    public Long getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Long userId) {
-        this.userId = userId;
     }
 
     public LocalDateTime getDate() {
@@ -67,8 +57,6 @@ public class Order {
         this.status = status;
     }
 
-    private String status;
-
     public Long getId() {
         return id;
     }
@@ -76,5 +64,4 @@ public class Order {
     public void setId(Long id) {
         this.id = id;
     }
-
 }
