@@ -2,7 +2,6 @@ package com.example.demo.model;
 
 
 import jakarta.persistence.*;
-import org.springframework.data.annotation.Id;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,14 +11,16 @@ import java.util.List;
 public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false)
     private Long id;
-
 
     @Column(nullable = false)
     private String name;
 
     @OneToMany(mappedBy = "category")
     private List<Product> products = new ArrayList<>();
+
+
 
     public List<Product> getProducts() {
         return products;

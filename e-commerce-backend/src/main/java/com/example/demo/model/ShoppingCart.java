@@ -2,14 +2,13 @@ package com.example.demo.model;
 
 
 import jakarta.persistence.*;
-import org.springframework.data.annotation.Id;
 
 @Entity
 @Table(name = "shopping_cart")
 public class ShoppingCart {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false)
     private Long id;
 
     @Column(nullable = false)
@@ -30,6 +29,8 @@ public class ShoppingCart {
     @ManyToOne
     @JoinColumn(name = "product_id", nullable = false)
     private Product product;
+
+
 
     public User getUser() {
         return user;
