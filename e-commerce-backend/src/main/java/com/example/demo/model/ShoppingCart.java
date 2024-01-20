@@ -21,6 +21,15 @@ public class ShoppingCart {
     @Column(nullable = false)
     private int quantity;
 
+    @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
+
+    @ManyToOne
+    @JoinColumn(name = "product_id", nullable = false)
+    private Product product;
+
+
     public Long getId() {
         return id;
     }
