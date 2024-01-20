@@ -21,6 +21,8 @@ public class ShoppingCart {
     @Column(nullable = false)
     private int quantity;
 
+
+
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
@@ -28,6 +30,22 @@ public class ShoppingCart {
     @ManyToOne
     @JoinColumn(name = "product_id", nullable = false)
     private Product product;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
 
 
     public Long getId() {
