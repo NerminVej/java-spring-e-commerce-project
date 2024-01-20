@@ -23,6 +23,11 @@ public class Order {
     @Column(nullable = false)
     private BigDecimal totalPrice;
 
+    @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
+
+
     public Long getId() {
         return id;
     }

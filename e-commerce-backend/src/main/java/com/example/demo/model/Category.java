@@ -4,6 +4,9 @@ package com.example.demo.model;
 import jakarta.persistence.*;
 import org.springframework.data.annotation.Id;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 @Table(name = "categories")
 public class Category {
@@ -14,6 +17,10 @@ public class Category {
 
     @Column(nullable = false)
     private String name;
+
+    @OneToMany(mappedBy = "category")
+    private List<Product> products = new ArrayList<>();
+
 
     public String getName() {
         return name;
