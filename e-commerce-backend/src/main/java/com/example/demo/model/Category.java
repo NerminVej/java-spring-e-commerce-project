@@ -1,6 +1,7 @@
 package com.example.demo.model;
 
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
@@ -18,8 +19,8 @@ public class Category {
     private String name;
 
     @OneToMany(mappedBy = "category")
-    private List<Product> products = new ArrayList<>();
-
+    @JsonManagedReference
+    private List<Product> products;
 
 
     public List<Product> getProducts() {
