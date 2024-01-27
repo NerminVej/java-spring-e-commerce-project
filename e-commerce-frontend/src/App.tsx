@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg';
 import Login from './pages/login/Login';
 import LoginPage from './pages/login/LoginPage';
 import SignInPage from './pages/signin/SignInPage';
+import HomePage from './pages/home/HomePage';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signin" element={<SignInPage />} />
+        <Route path="/home" element={<HomePage />} />
 
       </Routes>
     </Router>
