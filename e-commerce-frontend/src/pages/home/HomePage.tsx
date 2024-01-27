@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import Hero from "../../components/Hero";
 import Incentive from "../../components/Incentive";
 import Navbar from "../../components/Navbar";
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Hero />
       <PromoSection />
       <Incentive />
+      <Footer />
     </div>
   );
 };
