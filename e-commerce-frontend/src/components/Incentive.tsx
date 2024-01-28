@@ -34,7 +34,7 @@ const incentives = [
                   headlines, then clarify in the small print but hope people don't actually read it.
                 </p>
               </div>
-              <div className="aspect-w-3 aspect-h-2 overflow-hidden rounded-lg bg-gray-100">
+              <div className=" aspect-h-2 overflow-hidden rounded-lg bg-gray-100">
                 <img
                   src="https://tailwindui.com/img/ecommerce-images/incentives-07-hero.jpg"
                   alt=""

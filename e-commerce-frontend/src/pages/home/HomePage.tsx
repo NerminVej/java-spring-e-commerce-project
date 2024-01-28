@@ -8,9 +8,10 @@ const HomePage = () => {
   return (
     <div>
       <Navbar />
+   
+      <Incentive />
       <Hero />
       <PromoSection />
-      <Incentive />
       <Footer />
     </div>
   );
