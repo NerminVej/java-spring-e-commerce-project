@@ -6,10 +6,8 @@ import {
   ShoppingBagIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import { MenuIcon } from '@heroicons/react/24/solid';
-
-
-
+import { MenuIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const navigation = {
   categories: [
@@ -351,9 +349,7 @@ export default function Navbar() {
               <div className="ml-4 flex lg:ml-0">
                 <a href="#">
                   <span className="sr-only">Your Company</span>
-                  <div>
-                    E-Commerce-Store
-                  </div>
+                  <div>E-Commerce-Store</div>
                 </a>
               </div>
 
@@ -447,12 +443,12 @@ export default function Navbar() {
                                                 key={item.name}
                                                 className="flex"
                                               >
-                                                <a
-                                                  href={item.href}
-                                                  className="hover:text-gray-800"
+                                                <Link
+                                                  to={`/product/${item.name}`}
+                                                  className="..."
                                                 >
                                                   {item.name}
-                                                </a>
+                                                </Link>
                                               </li>
                                             ))}
                                           </ul>
@@ -482,17 +478,13 @@ export default function Navbar() {
               </Popover.Group>
 
               <div className="ml-auto flex items-center">
-                <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                
-                </div>
+                <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6"></div>
 
                 <div className="hidden lg:ml-8 lg:flex">
                   <a
                     href="#"
                     className="flex items-center text-gray-700 hover:text-gray-800"
-                  >
-                   
-                  </a>
+                  ></a>
                 </div>
 
                 {/* Search */}
