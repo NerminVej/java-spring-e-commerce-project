@@ -6,6 +6,7 @@ import LoginPage from "./pages/login/LoginPage";
 import SignInPage from "./pages/signin/SignInPage";
 import HomePage from "./pages/home/HomePage";
 import ProductPage from "./pages/product/ProductPage";
+import ProductOverview from "./components/ProductOverview";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/signin" element={<SignInPage />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/product/:productname" element={<ProductPage />} />
+        <Route path="/product-preview/:productId" element={<ProductOverview />} />
       </Routes>
     </Router>
   );

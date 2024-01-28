@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { CheckIcon, QuestionMarkCircleIcon, StarIcon } from '@heroicons/react/20/solid'
 import { RadioGroup } from '@headlessui/react'
 import { ShieldCheckIcon } from '@heroicons/react/24/outline'
+import { useParams } from 'react-router-dom';
 
 const product = {
   name: 'Everyday Ruck Snack',
@@ -28,7 +29,8 @@ function classNames(...classes: string[]) {
 
 export default function ProductOverview() {
   const [selectedSize, setSelectedSize] = useState(product.sizes[0])
-
+  const { productId } = useParams();
+  
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
