@@ -1,11 +1,13 @@
-import ShoppingCart from "../../components/ShoppingCart"
+import Navbar from "../../components/Navbar";
+import ShoppingCart from "../../components/ShoppingCart";
 
 const ShoppingCartPage = () => {
   return (
     <div>
-        <ShoppingCart />
+      <Navbar />
+      <ShoppingCart />
     </div>
-  )
-}
+  );
+};
 
-export default ShoppingCartPage
+export default ShoppingCartPage;
