@@ -8,6 +8,7 @@ import HomePage from "./pages/home/HomePage";
 import ProductPage from "./pages/product/ProductPage";
 import ProductOverview from "./components/ProductOverview";
 import ProductOverviewPage from "./pages/product-overview/ProductOverviewPage";
+import ShoppingCartPage from "./pages/shoppingcart/ShoppingCartPage";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/home" element={<HomePage />} />
         <Route path="/product/:productname" element={<ProductPage />} />
         <Route path="/product-preview/:productId" element={<ProductOverviewPage />} />
+        <Route path="/shopping-cart" element={<ShoppingCartPage />} />
+
       </Routes>
     </Router>
   );
