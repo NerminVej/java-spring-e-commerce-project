@@ -1,8 +1,9 @@
+import ShoppingCart from "../../components/ShoppingCart"
 
 const ShoppingCartPage = () => {
   return (
     <div>
-        <ShoppingCartPage />
+        <ShoppingCart />
     </div>
   )
 }
