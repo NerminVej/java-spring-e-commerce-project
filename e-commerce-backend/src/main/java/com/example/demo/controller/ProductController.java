@@ -53,4 +53,15 @@ public class ProductController {
             return ResponseEntity.ok().<Void>build();
         }).orElseGet(() -> ResponseEntity.notFound().build());
     }
+
+    @GetMapping("/search")
+    public ResponseEntity<List<Product>> getProductsByName(@RequestParam String name) {
+        List<Product> products = productService.findByName(name);
+        if (products.isEmpty()) {
+            return ResponseEntity.notFound().build();
+        } else {
+            return ResponseEntity.ok(products);
+        }
+    }
+
 }
