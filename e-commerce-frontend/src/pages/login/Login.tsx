@@ -1,17 +1,32 @@
+import axios from 'axios';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 
 export default function Login() {
   const navigate = useNavigate();
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
   const handleSignIn = () => {
     navigate('/signin');
   };
 
-  const handleLogIn = () => {
+  const handleLogIn2 = () => {
     navigate('/home');
   };
 
+  const handleLogIn = async (event) => {
+    event.preventDefault(); 
+
+    try {
+      const response = await axios.post('/api/v1/signin', { email, password });
+      console.log(response.data); 
+      navigate('/home');
+    } catch (error) {
+      console.error('Login failed:', error.response || error.message);
+    }
+  };
 
   return (
     <>
