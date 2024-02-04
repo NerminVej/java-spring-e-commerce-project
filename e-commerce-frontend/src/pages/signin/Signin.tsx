@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { signUp } from "../../utils/service";
+import { useNavigate } from "react-router";
 
 export default function Signin() {
   const [firstName, setFirstName] = useState('');
@@ -9,6 +10,8 @@ export default function Signin() {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   
+  const navigate = useNavigate();
+
 
   const handleSignUp = async (event) => {
     event.preventDefault();
@@ -19,7 +22,7 @@ export default function Signin() {
 
     try {
       await signUp(firstName, lastName, username, email, password);
-      navigate('/home'); // Adjust the path as needed
+      navigate('/home');
     } catch (error) {
       console.error('Sign up failed:', error.response || error.message);
     }
