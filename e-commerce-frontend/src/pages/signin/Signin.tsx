@@ -8,6 +8,23 @@ export default function Signin() {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   
+
+  const handleSignUp = async (event) => {
+    event.preventDefault();
+    if (password !== confirmPassword) {
+      console.error('Passwords do not match');
+      return;
+    }
+
+    try {
+      await signUp(firstName, lastName, username, email, password);
+      navigate('/home'); // Adjust the path as needed
+    } catch (error) {
+      console.error('Sign up failed:', error.response || error.message);
+    }
+  };
+
+  
     return (
       <>
         <div className="flex min-h-full flex-col justify-center py-12 sm:px-6 lg:px-8">
