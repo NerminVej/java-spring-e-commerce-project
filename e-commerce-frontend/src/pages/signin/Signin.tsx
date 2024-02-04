@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { signUp } from "../../utils/service";
 
 export default function Signin() {
   const [firstName, setFirstName] = useState('');
