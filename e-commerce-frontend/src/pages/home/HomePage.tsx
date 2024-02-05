@@ -5,6 +5,13 @@ import Navbar from "../../components/Navbar";
 import PromoSection from "../../components/PromoSection";
 
 const HomePage = () => {
+
+  const handleLogout = () => {
+    localStorage.removeItem('authToken');
+    navigate('/login');
+  };
+
+
   return (
     <div>
       <Navbar />
