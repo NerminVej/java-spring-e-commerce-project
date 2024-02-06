@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router";
 import Footer from "../../components/Footer";
 import Hero from "../../components/Hero";
 import Incentive from "../../components/Incentive";
