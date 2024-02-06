@@ -6,6 +6,8 @@ import PromoSection from "../../components/PromoSection";
 
 const HomePage = () => {
 
+  const navigate = useNavigate();
+  
   const handleLogout = () => {
     localStorage.removeItem('authToken');
     navigate('/login');
