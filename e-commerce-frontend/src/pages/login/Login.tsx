@@ -16,7 +16,7 @@ export default function Login() {
     navigate('/home');
   };
 
-  const handleLogIn = async (event) => {
+  const handleLogIn = async (event: { preventDefault: () => void; }) => {
     event.preventDefault(); 
 
     try {
