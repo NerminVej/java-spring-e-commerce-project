@@ -9,7 +9,7 @@ export const signIn = async (email, password) => {
   }
 };
 
-export const signUp = async (firstName, lastName, username, email, password) => {
+export const signUp = async (firstName: string, lastName: string, username: string, email: string, password: string) => {
   try {
     const response = await axios.post(`/signup`, {
       firstName,
@@ -23,3 +23,4 @@ export const signUp = async (firstName, lastName, username, email, password) => 
     throw error;
   }
 };
+
