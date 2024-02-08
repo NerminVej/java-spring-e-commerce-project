@@ -18,14 +18,16 @@ export default function Login() {
 
   const handleLogIn = async (event: { preventDefault: () => void; }) => {
     event.preventDefault(); 
-
+    
     try {
       const response = await axios.post('/api/v1/signin', { email, password });
-      console.log(response.data); 
+      console.log(response.data);
       navigate('/home');
     } catch (error) {
-      console.error('Login failed:', error.response || error.message);
+      const e = error as { message: string }; // General type assertion
+      console.error('Login failed:', e.message);
     }
+    
   };
 
   return (
