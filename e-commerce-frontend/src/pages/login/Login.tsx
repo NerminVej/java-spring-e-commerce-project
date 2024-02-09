@@ -24,7 +24,7 @@ export default function Login() {
       console.log(response.data);
       navigate('/home');
     } catch (error) {
-      const e = error as { message: string }; // General type assertion
+      const e = error as { message: string };
       console.error('Login failed:', e.message);
     }
     
