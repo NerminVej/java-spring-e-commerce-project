@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const signIn = async (email, password) => {
+export const signIn = async (email: any, password: any) => {
   try {
     const response = await axios.post(`/api/v1/signin`, { email, password });
     return response.data;
