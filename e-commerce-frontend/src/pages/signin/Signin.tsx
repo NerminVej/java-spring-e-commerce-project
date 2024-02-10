@@ -3,7 +3,7 @@ import { signUp } from "../../utils/service";
 import { useNavigate } from "react-router";
 
 export default function Signin() {
-  const [firstName, setFirstName] = useState('');
+  const [firstName, setFirstName] = useState<string>('');
   const [lastName, setLastName] = useState('');
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
