@@ -4,7 +4,7 @@ import { useNavigate } from "react-router";
 
 export default function Signin() {
   const [firstName, setFirstName] = useState<string>('');
-  const [lastName, setLastName] = useState('');
+  const [lastName, setLastName] = useState<string>('');
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
