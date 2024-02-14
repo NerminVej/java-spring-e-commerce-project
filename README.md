@@ -4,4 +4,4 @@ An E-Commerce Site with a Java Spring Backend and a React Frontend. Using TypeSc
 
 - An user is able to Sign up and Log in.
 - Shopping Cart Feature
-- Responsive web design
+- Responsive web design with Tailwind CSS
