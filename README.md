@@ -2,6 +2,6 @@
  
 An E-Commerce Site with a Java Spring Backend and a React Frontend. Using TypeScript, Tailwind CSS and PostgreSQL.
 
-- An user is able to Sign up and Log in.
+- Handbuild registration system
 - Shopping Cart Feature
-- Responsive web design
+- Responsive web design with Tailwind CSS
