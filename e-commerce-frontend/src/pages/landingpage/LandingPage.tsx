@@ -19,6 +19,7 @@ import {
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import CTASection from './CTASection'
 import StatsSection from './StatsSection'
+import { Footer } from './Footer'
 
 const solutions = [
   {
@@ -590,7 +591,7 @@ export default function LandingPage() {
         {/* CTA Section */}
       <CTASection />
       </main>
-
+<Footer />
       <footer className="bg-gray-50" aria-labelledby="footer-heading">
         <h2 id="footer-heading" className="sr-only">
           Footer
