@@ -30,7 +30,11 @@ const CTASection = () => {
         </div>
       </div>
       <div>
-        <div>test</div>
+        <div>
+          <h2>
+            test
+          </h2>
+        </div>
       </div>
     </div>
   );
