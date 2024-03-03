@@ -32,7 +32,6 @@ const CTASection = () => {
       <div>
         <div>
           <h2>
-            test
           </h2>
         </div>
       </div>
