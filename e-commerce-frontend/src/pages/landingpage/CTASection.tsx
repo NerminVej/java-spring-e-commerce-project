@@ -16,7 +16,7 @@ const CTASection = () => {
             Learn more
           </a>
           <a>
-            Learn more here
+            Learn more here!
           </a>
           <a
             href="#"
