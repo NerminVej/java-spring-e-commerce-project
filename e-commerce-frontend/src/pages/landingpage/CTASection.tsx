@@ -28,7 +28,7 @@ const CTASection = () => {
             href="#"
             className="text-xl flex items-center justify-center rounded-md border border-transparent bg-indigo-50 px-4 py-3 text-base font-medium text-indigo-800 shadow-sm hover:bg-indigo-100"
           >
-            Dont have an account yet? Then go here!
+            Dont have an account yet?
           </a>
         </div>
       </div>
