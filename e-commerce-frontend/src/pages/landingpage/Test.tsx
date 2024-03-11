@@ -3,7 +3,7 @@ const Test = () => {
   return (
     <div>
       <div>
-        <h2>Test</h2>
+        <h2 className="text-3xl">Test</h2>
       </div>
     </div>
   )
