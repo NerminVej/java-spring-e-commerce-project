@@ -9,7 +9,7 @@ const Test = () => {
      <div>
       <div className="text-3xl text-white font-bold">
      <h2>
-      
+      hello
      </h2>
       </div>
      </div>
