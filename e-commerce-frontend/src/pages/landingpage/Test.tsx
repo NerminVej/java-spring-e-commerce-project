@@ -9,7 +9,6 @@ const Test = () => {
      <div>
       <div className="text-3xl text-white font-bold">
      <h2>
-      This is a header here!
      </h2>
       </div>
      </div>
