@@ -29,7 +29,7 @@ const Test = () => {
           </div>
           <div>
       <div>
-      <p className="text-gray-600">This is some sample content for section 3.</p>
+
       </div>
           </div>
           </div>
