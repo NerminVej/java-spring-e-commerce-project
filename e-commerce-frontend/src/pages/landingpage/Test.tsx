@@ -22,7 +22,8 @@ const Test = () => {
            </div>
            <div>
           <div>
-          
+            <h3 className="text-2xl font-bold text-gray-800 mb-4">Section 3</h3>
+
           <div>
           </div>
           </div>
