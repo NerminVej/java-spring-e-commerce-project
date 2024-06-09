@@ -31,10 +31,8 @@ const Test = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
   )
-}s
+}
 
 export default Test
 
