@@ -21,7 +21,10 @@ const Test = () => {
            </div>
            <div>
            <div>
-        
+           <div className="bg-white p-8 shadow-md rounded-lg">
+            <h3 className="text-2xl font-bold text-gray-800 mb-4">Section 1</h3>
+            <p className="text-gray-600">This is some sample content for section 1.</p>
+          </div>
           </div>
           </div>
           </div>
