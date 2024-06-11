@@ -22,7 +22,9 @@ const Test = () => {
            <div>
            <div>
            <div className="bg-white p-8 shadow-md rounded-lg">
+           <div className="bg-white p-8 shadow-md rounded-lg">
           
+          </div>
           </div>
           </div>
           </div>
