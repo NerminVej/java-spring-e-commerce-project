@@ -15,9 +15,7 @@ const Test = () => {
             <p className="text-gray-600">This is some sample content for section 2.</p>
           </div>
           <div className="bg-white p-8 shadow-md rounded-lg">
-<div>
-  
-</div>
+
             <div>
            <div>
            </div>
