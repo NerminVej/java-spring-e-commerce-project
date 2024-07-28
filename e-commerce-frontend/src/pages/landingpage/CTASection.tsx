@@ -25,7 +25,7 @@ const CTASection = () => {
             Get started Now!
           </a>
           <a
-            href="#"
+            href=""
             className="text-xl flex items-center justify-center rounded-md border border-transparent bg-indigo-50 px-4 py-3 font-medium text-indigo-800 shadow-sm hover:bg-indigo-100"
           >
             Dont have an account yet?
