@@ -75,7 +75,6 @@ export const Footer = () => {
               type="email"
               name="email-address"
               id="email-address"
-              autoComplete="email"
               required
               className="w-full min-w-0 appearance-none rounded-md border border-gray-300 bg-white py-2 px-4 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:placeholder-gray-400 focus:outline-none focus:ring-indigo-500"
               placeholder="Enter your email"
