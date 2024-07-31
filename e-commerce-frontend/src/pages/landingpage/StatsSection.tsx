@@ -27,10 +27,7 @@ const StatsSection = () => {
             Get actionable data that will help grow your business
           </p>
           <p className="mt-5 text-lg text-gray-300">
-            Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing
-            quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce
-            orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet
-            amet lacus nibh integer quis. Eu vulputate diam sit tellus quis at.
+          Test
           </p>
           <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
             {metrics.map((item) => (
