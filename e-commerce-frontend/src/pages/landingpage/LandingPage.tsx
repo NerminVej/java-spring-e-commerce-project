@@ -588,7 +588,6 @@ export default function LandingPage() {
         {/* Stats section */}
       <StatsSection />
 
-        {/* CTA Section */}
       <CTASection />
       </main>
 <Footer />
