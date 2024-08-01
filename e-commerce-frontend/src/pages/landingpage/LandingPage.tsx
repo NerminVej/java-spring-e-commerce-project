@@ -585,7 +585,6 @@ export default function LandingPage() {
           </div>
         </div>
 
-        {/* Stats section */}
       <StatsSection />
 
       <CTASection />
