@@ -228,9 +228,7 @@ export default function LandingPage() {
               <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
                 Pricing
               </a>
-              <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
-                Partners
-              </a>
+             
               <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
                 Company
               </a>
