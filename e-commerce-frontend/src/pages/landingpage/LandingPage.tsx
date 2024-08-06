@@ -265,7 +265,7 @@ export default function LandingPage() {
                     <div>
                       <img
                         className="h-8 w-auto"
-                        alt="Your Company"
+                        alt="Company"
                       />
                     </div>
                     <div className="-mr-2">
