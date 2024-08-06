@@ -298,9 +298,6 @@ export default function LandingPage() {
                       Pricing
                     </a>
                     <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                      Partners
-                    </a>
-                    <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
                       Company
                     </a>
                   </div>
