@@ -360,7 +360,6 @@ export default function LandingPage() {
           </div>
         </div>
 
-        {/* Logo Cloud */}
         <div className="bg-gray-100">
           <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
             <p className="text-center text-base font-semibold text-gray-500">
