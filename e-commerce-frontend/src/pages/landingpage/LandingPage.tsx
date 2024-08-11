@@ -370,7 +370,7 @@ export default function LandingPage() {
                 <img className="h-12"  alt="Tuple" />
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img className="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+                <img className="h-12"  alt="Mirage" />
               </div>
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                 <img
