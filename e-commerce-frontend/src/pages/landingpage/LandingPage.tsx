@@ -375,7 +375,6 @@ export default function LandingPage() {
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                 <img
                   className="h-12"
-                  src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
                   alt="StaticKit"
                 />
               </div>
