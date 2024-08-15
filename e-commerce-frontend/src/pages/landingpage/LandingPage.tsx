@@ -389,7 +389,6 @@ export default function LandingPage() {
           </div>
         </div>
 
-        {/* Alternating Feature Sections */}
         <div className="relative overflow-hidden pt-16 pb-32">
           <div aria-hidden="true" className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100" />
           <div className="relative">
