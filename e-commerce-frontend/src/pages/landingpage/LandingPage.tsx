@@ -420,10 +420,7 @@ export default function LandingPage() {
                 <div className="mt-8 border-t border-gray-200 pt-6">
                   <blockquote>
                     <div>
-                      <p className="text-base text-gray-500">
-                        &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean
-                        curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;
-                      </p>
+                    
                     </div>
                     <footer className="mt-3">
                       <div className="flex items-center space-x-3">
