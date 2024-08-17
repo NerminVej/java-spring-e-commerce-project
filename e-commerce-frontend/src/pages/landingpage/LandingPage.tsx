@@ -431,7 +431,6 @@ export default function LandingPage() {
                           />
                         </div>
                         <div className="text-base font-medium text-gray-700">
-                          Marcia Hill, Digital Marketing Manager
                         </div>
                       </div>
                     </footer>
