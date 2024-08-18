@@ -427,7 +427,6 @@ export default function LandingPage() {
                         <div className="flex-shrink-0">
                           <img
                             className="h-6 w-6 rounded-full"
-                            alt=""
                           />
                         </div>
                         <div className="text-base font-medium text-gray-700">
