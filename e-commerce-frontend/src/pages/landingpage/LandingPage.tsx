@@ -490,7 +490,6 @@ export default function LandingPage() {
             <h2 className="text-3xl font-bold tracking-tight text-white">Inbox support built for efficiency</h2>
             <p className="mt-4 max-w-3xl text-lg text-purple-200">
               Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Blandit
-              aliquam sit nisl euismod mattis in.
             </p>
             <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
               {features.map((feature) => (
