@@ -614,8 +614,7 @@ export default function LandingPage() {
                 </a>
               ))}
             </div>
-            <p className="mt-8 text-base text-gray-400 md:order-1 md:mt-0">
-            </p>
+          
           </div>
         </div>
       </footer>
