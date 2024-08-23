@@ -62,9 +62,7 @@ export const Footer = () => {
         </div>
         <div className="mt-12 xl:mt-0">
           <h3 className="text-base font-medium text-gray-900">Subscribe to our newsletter</h3>
-          <p className="mt-4 text-base text-gray-500">
-            The latest news, articles, and resources, sent to your inbox weekly.
-          </p>
+        
           <form className="mt-4 sm:flex sm:max-w-md">
             <label htmlFor="email-address" className="sr-only">
               Email address
