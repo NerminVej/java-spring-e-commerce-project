@@ -35,7 +35,6 @@ const testimonials = [
           <div className="absolute inset-0 bg-gradient-to-t from-white via-white" />
         </div>
   
-        {/* Callout */}
         <section
           aria-labelledby="sale-heading"
           className="relative mx-auto flex max-w-7xl flex-col items-center px-4 pt-32 text-center sm:px-6 lg:px-8"
