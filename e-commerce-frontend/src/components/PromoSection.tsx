@@ -23,7 +23,6 @@ const testimonials = [
   export default function PromoSection() {
     return (
       <div className="relative overflow-hidden bg-white mt-20">
-        {/* Decorative background image and gradient */}
         <div aria-hidden="true" className="absolute inset-0">
           <div className="absolute inset-0 mx-auto max-w-7xl overflow-hidden xl:px-8">
             <img
