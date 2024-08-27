@@ -48,7 +48,7 @@ const testimonials = [
               stock.
             </p>
             <a
-              href="#"
+              href=""
               className="mt-6 inline-block w-full rounded-md border border-transparent bg-gray-900 py-3 px-8 font-medium text-white hover:bg-gray-800 sm:w-auto"
             >
               Get access to our one-time sale
