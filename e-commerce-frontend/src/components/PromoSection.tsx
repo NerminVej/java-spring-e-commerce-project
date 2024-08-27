@@ -56,7 +56,6 @@ const testimonials = [
           </div>
         </section>
   
-        {/* Testimonials */}
         <section
           aria-labelledby="testimonial-heading"
           className="relative mx-auto max-w-7xl py-24 px-4 sm:px-6 lg:py-32 lg:px-8"
