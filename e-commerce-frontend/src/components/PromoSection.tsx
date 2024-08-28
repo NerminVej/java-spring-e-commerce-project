@@ -62,7 +62,7 @@ const testimonials = [
         >
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <h2 id="testimonial-heading" className="text-2xl font-bold tracking-tight text-gray-900">
-              What are people saying?
+              What are people saying
             </h2>
   
             <div className="mt-16 space-y-16 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0">
