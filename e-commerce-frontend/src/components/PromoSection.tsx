@@ -71,7 +71,6 @@ const testimonials = [
                     width={24}
                     height={18}
                     viewBox="0 0 24 18"
-                    xmlns="http://www.w3.org/2000/svg"
                     aria-hidden="true"
                     className="flex-shrink-0 text-gray-300"
                   >
