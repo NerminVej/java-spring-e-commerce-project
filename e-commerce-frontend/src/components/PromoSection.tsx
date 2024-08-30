@@ -70,7 +70,7 @@ const testimonials = [
                   <svg
                     width={24}
                     height={18}
-                    //viewBox="0 0 24 18"
+                    viewBox="0 0 24 18"
                     className="flex-shrink-0 text-gray-300"
                   >
                     <path
