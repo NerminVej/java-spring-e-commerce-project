@@ -8,7 +8,6 @@ const navigation = {
     support: [
       { name: 'Pricing', href: '#' },
       { name: 'Guides', href: '#' },
-      { name: 'API Status', href: '#' },
     ],
     company: [
       { name: 'About', href: '#' },
