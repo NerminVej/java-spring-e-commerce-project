@@ -61,7 +61,6 @@ const navigation = {
                 alt="E-Commerce-Store"
               />
               <p className="text-base text-gray-500">
-                Making the world a better place through constructing elegant hierarchies.
               </p>
               <div className="flex space-x-6">
                 {navigation.social.map((item) => (
