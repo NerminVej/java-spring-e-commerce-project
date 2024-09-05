@@ -126,7 +126,6 @@ const navigation = {
               </div>
             </div>
           </div>
-          <div className="mt-12 border-t border-gray-200 pt-8">
           </div>
         </div>
       </footer>
