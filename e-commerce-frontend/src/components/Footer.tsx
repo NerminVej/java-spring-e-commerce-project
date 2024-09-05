@@ -126,7 +126,6 @@ const navigation = {
               </div>
             </div>
           </div>
-          </div>
         </div>
       </footer>
     )
