@@ -31,7 +31,6 @@ export default function Hero() {
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
                             src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                            alt=""
                             className="h-full w-full object-cover object-center"
                           />
                         </div>
