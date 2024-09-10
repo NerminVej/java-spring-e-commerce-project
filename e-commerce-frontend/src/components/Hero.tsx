@@ -23,7 +23,7 @@ export default function Hero() {
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                           <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                            src="ilwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
                 
                             className="h-full w-full object-cover object-center"
                           />
