@@ -11,7 +11,6 @@ export default function Hero() {
                 This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care
               </p>
             </div>
-            <div>
               <div className="mt-10">
                 <div
                   aria-hidden="true"
