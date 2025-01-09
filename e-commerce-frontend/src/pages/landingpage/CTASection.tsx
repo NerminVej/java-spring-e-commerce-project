@@ -10,7 +10,12 @@ const CTASection = () => {
             Create an account
           </span>
         </h2>
-       e
+        <div className="mt-6 space-y-4 sm:flex sm:space-y-0 sm:space-x-5">
+          <a
+            href=""
+            className="flex items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700"
+          >
+            Learn more
           </a>
           <a
             href=""
